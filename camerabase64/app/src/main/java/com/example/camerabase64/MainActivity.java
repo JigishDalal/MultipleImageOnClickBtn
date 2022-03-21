@@ -243,7 +243,7 @@ public class MainActivity extends AppCompatActivity {
             Log.e("file size1 after",""+fi.length());
             image1=Base64code.getStringFile(fi);
             Log.e("Image 1", image1);
-            btncamera2.setImageBitmap(Base64code.getdecoded64ImageStringFromBitmap(image1));
+            btncamera3.setImageBitmap(Base64code.getdecoded64ImageStringFromBitmap(image1));
         }
     });
     @Override
